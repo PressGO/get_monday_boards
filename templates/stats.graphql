@@ -1,0 +1,16 @@
+{{
+  boards(ids: [{board_id}]) {{
+    name
+    id
+    description
+    items {{
+      name
+      column_values {{
+        title
+        id
+        type
+        text
+      }}
+    }}
+  }}
+}}
