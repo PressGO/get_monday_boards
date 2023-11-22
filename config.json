@@ -1,19 +1,9 @@
 {
-    "boards": {
-        "board_id_1": {
-            "query_template": "template_1",
-            ...
-        },
-        "board_id_2": {
-            "query_template": "template_2",
-            ...
-        },
-        ...
-    }
-}
-
-
-{
-    ...
-    "output_path": "path/to/output/folder"
+    "boards": [
+        {
+            "board_id": "5100178786",
+            "query_template": "stats",
+            "output_path": "C:\\Users\\Juan Peng\\monscript\\storage\\"
+        }
+    ]
 }
