@@ -10,6 +10,7 @@ class MondayApiClient:
         self.query_templates = {}
         #print(f"API URL set to: {self.api_url}")  # Debug print
 
+    # might remove add_query if not being used
     def add_query_template(self, identifier, template_path):
         """Adds a new query template from a file."""
         with open(template_path, 'r') as file:

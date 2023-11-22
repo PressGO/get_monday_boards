@@ -27,7 +27,7 @@ def main():
     client.add_query_template('stats', template_path)
 
     # query from specific board via board id
-    board_id = 5100178786
+    board_id = 5100178786 # this should be a call so we know which boards to get
     query_items = client.load_query('stats', board_id=board_id)
 
     # get board data as a json file

@@ -1,0 +1,19 @@
+{
+    "boards": {
+        "board_id_1": {
+            "query_template": "template_1",
+            ...
+        },
+        "board_id_2": {
+            "query_template": "template_2",
+            ...
+        },
+        ...
+    }
+}
+
+
+{
+    ...
+    "output_path": "path/to/output/folder"
+}
