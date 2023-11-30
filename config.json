@@ -3,7 +3,8 @@
         {
             "board_id": "5100178786",
             "query_template": "stats",
-            "output_path": "C:\\Users\\Juan Peng\\monscript\\storage\\"
+            "output_path": "C:\\Users\\Juan Peng\\monscript\\storage\\",
+            "team": "SS-Psych"
         }
     ]
 }

@@ -58,6 +58,10 @@ def main():
         # Save to CSV in the specified output path
         FileManager.save_to_csv(data_frame, csv_filename, output_path)
         FileManager.save_to_json(board_data, json_filename, output_path)
+
+        # Save dataframe according to stats template
+        team_data = board_config["team"]
+        DataHandler.convert_from_df_to_stat(items, team_data)
         # # Check if data was retrieved
         # if not board_data:
         #     print(f"No data retrieved for board ID {board_config['board_id']}")
